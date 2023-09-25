@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+
+}
+img{
+    width: 100%;
+
+}
